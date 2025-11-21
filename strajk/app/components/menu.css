@@ -1,0 +1,17 @@
+.menu-container {
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__item {
+    width: 1rem;
+    height: 1rem;
+    background-color: #838383;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #EC315A;
+}

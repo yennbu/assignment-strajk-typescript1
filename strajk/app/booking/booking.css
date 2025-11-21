@@ -1,0 +1,111 @@
+.booking-container{
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strajk-logo--booking {
+    width: 5rem;
+}
+
+.title--booking {
+    font-size: 1rem;
+}
+
+.booking__form {
+    margin-top: 5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bookin__form--when {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 1rem;
+}
+
+.booking__form--what {
+    width: 80%;
+}
+
+h3 {
+    margin-top: 0.7rem;
+}
+
+.form__input {
+    border: 2px solid #340D6D;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+/* SHOES */
+
+.shoes-container {
+    margin-top: 10%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoes__list {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.shoes__item {
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes__size {
+    border: 2px solid #340D6D;
+    border-radius: 5px;
+    width: 60%;
+    padding-left: 0.5rem;
+}
+
+.shoes__remove-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10%;
+    border-radius: 50%;
+    background-color: #EC315A;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.shoes__add-btn {
+    margin-top: 5%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #EC315A;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.booking__btn {
+    margin-top: 10%;
+    background-color: #EC315A;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 80%;
+    border-radius: 5px;
+}

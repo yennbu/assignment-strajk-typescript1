@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF4F1;
+  --foreground: #222222;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.strajk-logo{
+  margin-top: 50%;
+  width: 8rem;
+}
+
+.h1 {
+  color: #EC315A;
+  font-weight: 800;
+}
+
+.h2 {
+  color: #340D6D;
+  font-weight: 200;
+}
+
+.h3 {
+  color: #340D6D;
+  font-weight: 200;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
